@@ -1,0 +1,27 @@
+public class Stars {
+    public static void main(String [] args){
+        Double();
+        Five();
+        System.out.println("");
+        System.out.println("");
+        Double();
+        System.out.println("");
+        System.out.println("");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        System.out.println("  *  ");
+        Double();
+        Five();       
+        
+
+    }
+    public static void Double(){
+        System.out.println("*****");
+        System.out.println("*****");
+    }
+    public static void Five(){
+        System.out.println(" * * ");
+        System.out.println("  *  ");
+        System.out.println(" * * ");
+    }
+}
