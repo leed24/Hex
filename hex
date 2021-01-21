@@ -1,0 +1,44 @@
+public class Hex {
+    public static void main(String [] args){
+       
+        Top();
+        Bot();
+        Line2();
+        Top();
+        Bot();
+        Line2();
+        Bot();
+        Top();
+        Line2();
+        Bot();
+
+        
+    }
+    public static void Top() {
+        System.out.println("  _______  ");
+        System.out.println(" /       \\ ");
+        System.out.println("/         \\");
+        
+    }
+    public static void Bot() {
+        System.out.println("\\         /");
+        System.out.println(" \\_______/");
+        
+    }
+    public static void Line2(){
+        System.out.print(" ");
+        for (int num=1; num<=2; num++ ){
+        Line( );
+
+        }
+        System.out.print("-");
+        System.out.println("");
+    }
+
+    
+    public static void Line() {
+        System.out.print("-\"");
+        System.out.print("-'");
+
+}
+}
